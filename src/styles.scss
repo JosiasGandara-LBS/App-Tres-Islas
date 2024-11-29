@@ -1,1 +1,21 @@
 /* You can add global styles to this file, and also import other style files */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.bg-c-orange-100 { background-color: #E55204; }
+.bg-c-beige-100 { background-color:#F3E3BF; }
+
+.nunito-regular {
+  font-family: "Nunito", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.nunito-extra-bold {
+  font-family: "Nunito", serif;
+  font-optical-sizing: auto;
+  font-weight: 800;
+  font-style: normal;
+}
